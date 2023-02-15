@@ -60,9 +60,14 @@ h4 {
   margin-right: auto;
 }
 
-#career th,
 #career td {
   border: 1px solid black;
+  padding: 10px;
+  text-align: center;
+}
+
+#career th {
+  border: none;
   padding: 10px;
   text-align: center;
 }
@@ -83,4 +88,79 @@ footer {
 
 #exerciseImage {
   margin-left: 500px;
+}
+
+nav {
+  background-color: #f7c465;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  border: 1px solid black;
+}
+
+nav ul {
+  list-style: none;
+  text-align: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-family: "Francois One", sans-serif;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+nav a:hover,
+nav a:active {
+  text-decoration: underline;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+figure {
+  display: inline-block;
+}
+
+figure img {
+  width: 165px;
+}
+
+#computer_content,
+#cooking_content,
+#exercising_content {
+  display: flex;
+}
+
+#computer_content img,
+#cooking_content img,
+#exercising_content img {
+  height: 175px;
+}
+
+#computer_content img,
+#cooking_content img {
+  margin-right: 20px;
+}
+
+#exercising_content img {
+  margin-left: 20px;
+}
+
+figcaption {
+  font-family: "Mukta Malar", sans-serif;
+  font-size: 10px;
+  width: 165px;
+  text-align: center;
+}
+
+a {
+  color: blue;
+  text-decoration: none;
 }
