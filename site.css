@@ -17,6 +17,7 @@ body {
   border: 2px solid black;
   border-radius: 10px;
   margin-bottom: 10px;
+  background-color: #f7c465;
 }
 
 #bio > h2,
@@ -39,8 +40,7 @@ h4 {
 }
 
 #timeline li {
-  border-top: 1px solid #d9d9d9;
-  border-bottom: 1px solid #d9d9d9;
+  border-bottom: 1px solid black;
 }
 
 #portrait {
@@ -49,10 +49,10 @@ h4 {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
   border-radius: 5px;
   border: 1px solid black;
-  border-bottom-left-radius: 0;
-  border-bottom-right-radius: 0;
 }
 
 #career table {
@@ -91,7 +91,7 @@ footer {
 }
 
 nav {
-  background-color: #f7c465;
+  background-color: #edca61;
   padding-top: 1px;
   padding-bottom: 1px;
   margin-left: auto;
